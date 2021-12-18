@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Attic",
+    "description": "A new way to manage all your tasks, easily and efficiently",
+    "version": "0.0.1",
+    "chrome_url_overrides": {
+        "newtab": "src/index.html"
+    },
+    "browser_action": {},
+    "icons": {
+        "16": "/public/favicon-16x16.png",
+        "48": "/public/favicon-32x32.png",
+        "128": "/public/favicon.ico"
+    },
+    "permissions": ["tabs"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+}
